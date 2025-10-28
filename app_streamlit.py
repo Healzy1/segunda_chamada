@@ -131,7 +131,7 @@ def processar_convocacoes_streamlit(excel_file_buffer, template_file_buffer, dat
                         file_stream.seek(0) 
                         
                         nome_arquivo_limpo = limpar_nome_arquivo(nome_aluno)
-                        nome_arquivo_final = f"Convocacao_{nome_arquivo_limpo}_{str(turma_simplificada).strip()}.docx" 
+                        nome_arquivo_final = f"Convocacao_{str(turma_simplificada).strip()}_{nome_arquivo_limpo}.docx"
                         
                         arquivos_gerados.append((nome_arquivo_final, file_stream))
 

@@ -4,7 +4,7 @@ Aplicação web simples para automatizar a geração de convocações de provas 
 
 ## 🚀 Acesse Online
 
-**[👉 Clique aqui para usar a aplicação](seu-link-streamlit-aqui)**
+**[👉 Clique aqui para usar a aplicação](https://segundachamada.streamlit.app/)**
 
 Não precisa instalar nada! Use direto no navegador.
 
@@ -23,6 +23,7 @@ Não precisa instalar nada! Use direto no navegador.
 
 2. **Prepare seus arquivos:**
    - Preencha a planilha com seus alunos e faltas
+   - **Personalize como quiser:** adicione mais matérias, mais alunos, quantas abas precisar!
    - Personalize o template Word se necessário
 
 3. **Use a aplicação online:**
@@ -33,6 +34,8 @@ Não precisa instalar nada! Use direto no navegador.
    - Clique em "Gerar Convocações"
    - Baixe o ZIP com todos os documentos
 
+## 📊 Formato da Planilha
+
 **Pontos importantes:**
 - **Coluna A1, B1, C1:** Turma (ex: "6º ano Ensino Fundamental     C")
 - **Coluna C a partir da linha 3:** Nomes dos alunos
@@ -40,6 +43,8 @@ Não precisa instalar nada! Use direto no navegador.
 - **Linha 2, coluna J em diante:** Nomes das matérias
 - **Use "F"** para marcar falta (gerará convocação)
 - **Deixe vazio** para presença (não gera convocação)
+
+💡 **Dica:** Você pode adicionar quantas matérias e alunos quiser! Basta continuar preenchendo as colunas.
 
 **📥 Baixe o arquivo `exemplo_planilha.xlsx` neste repositório para ver o formato completo!**
 
@@ -84,7 +89,7 @@ Matéria: CIÊNCIAS		Data da prova: 30/10
 ✅ Lista todas as matérias encontradas  
 ✅ Gera documento apenas para alunos com "F"  
 ✅ Formata o texto das provas  
-✅ Nomeia os arquivos: `Convocacao_NOME_ALUNO_6ºC.docx`
+✅ Nomeia os arquivos: `Convocacao_6ºC_NOME_ALUNO.docx`
 
 ## 🐛 Problemas Comuns
 
@@ -93,7 +98,7 @@ Matéria: CIÊNCIAS		Data da prova: 30/10
 - Confira se a coluna C tem os nomes dos alunos (a partir da linha 3)
 
 **"Turma não identificada"**
-- Verifique que no modelo foi usado uma mescla.
+- Verifique que no modelo foi usado uma mescla de células A1, B1 e C1
 
 **"Data não encontrada"**
 - Célula J1 deve ter texto como "PROVA 30/10"
@@ -116,7 +121,7 @@ Neste repositório você encontra:
 
 ## 📄 Licença
 
-MIT License - use como quiser!
+MIT License - use livremente!
 
 ---
 
