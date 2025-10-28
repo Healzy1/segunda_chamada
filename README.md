@@ -125,4 +125,4 @@ MIT License - use livremente!
 
 ---
 
-⭐ Achou útil? Deixe uma estrela!
+⭐ Gostou? Deixe uma estrela no GitHub!
